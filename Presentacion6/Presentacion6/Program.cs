@@ -9,7 +9,8 @@ namespace Presentacion6
             ClientesVentas Cliente;
             Cliente = new ClientesVentas();
             Cliente.IdCliente = 123;
-            Cliente.Apellidos = "hernandez Balenzuela";
+            Console.WriteLine("Ingresa tus Apellidos");
+            Cliente.Apellidos = Console.ReadLine();
             Cliente.Nombres = "Marcos";
             Cliente.RFC = "HENN";
             Cliente.Direccion = "av tigre 110";
